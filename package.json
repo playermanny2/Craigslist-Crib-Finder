@@ -1,0 +1,31 @@
+{
+  "name": "craigslist-crib-finder",
+  "version": "1.0.0",
+  "description": "App that sends users a daily list of houses to theit filter",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playermanny2/Craigslist-Crib-Finder.git"
+  },
+  "keywords": [
+    "craigslist",
+    "crib",
+    "house",
+    "apartment",
+    "finder"
+  ],
+  "author": "Manny Cato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/playermanny2/Craigslist-Crib-Finder/issues"
+  },
+  "homepage": "https://github.com/playermanny2/Craigslist-Crib-Finder#readme",
+  "dependencies": {
+    "cron": "^1.3.0",
+    "fetch": "^1.1.0",
+    "jsdom": "^11.12.0"
+  }
+}

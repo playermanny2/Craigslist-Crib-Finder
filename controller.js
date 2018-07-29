@@ -1,6 +1,5 @@
 var cron = require('cron');
 var fetchUrl = require("fetch").fetchUrl;
-var parseString = require('xml2js').parseString;
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
