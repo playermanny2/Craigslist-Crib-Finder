@@ -4,12 +4,12 @@
   "description": "App that sends users a daily list of houses to theit filter",
   "main": "controller.js",
   "scripts": {
-  	"start": "node controller.js",
+    "start": "node controller.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/playermanny2/Craigslist-Crib-Finder.git"
+    "url": "https://github.com/playermanny2/Craigslist-Crib-Finder.git"
   },
   "keywords": [
     "craigslist",
@@ -27,6 +27,7 @@
   "dependencies": {
     "cron": "^1.3.0",
     "fetch": "^1.1.0",
-    "jsdom": "^11.12.0"
+    "jsdom": "^11.12.0",
+    "rxjs": "^6.2.2"
   }
 }
